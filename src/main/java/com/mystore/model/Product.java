@@ -12,19 +12,19 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="PRODUCTS")
+@Table(name="products")
 public class Product {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	
-	@Column(name="P_BASEPRODUCT")
+	@Column(name="p_baseproduct")
 	private Long id;
 	
-	@Column(name="P_VENUE")
+	@Column(name="p_venue")
 	private String name;
 	
-	@Column(name="P_DATE")
+	@Column(name="p_date")
 	private LocalDateTime productDate;
 
 	public Long getId() {
