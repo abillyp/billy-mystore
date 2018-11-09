@@ -11,7 +11,7 @@ public class MystoreApplication extends SpringBootServletInitializer{
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(MystoreApplication.class);
-	}	
+	}	 
 	
 	
 	public static void main(String[] args) {
